@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.card{
+    @apply bg-white rounded overflow-hidden shadow-md relative;
+}
+.badge{
+    @apply bg-gray-200 text-xs uppercase font-bold rounded-full p-4 font-h4 bg-opacity-50 absolute top-0 ml-2 mt-2;
+}
+
+.btn{
+    @apply font-h4 rounded-full uppercase py-2 px-4 text-xs font-bold cursor-pointer tracking-wider;
+}
+
+.obtn{
+    @apply md:border-2 border-orange-600 hover:bg-orange-600 hover:text-white transition ease-out duration-500;
+}
